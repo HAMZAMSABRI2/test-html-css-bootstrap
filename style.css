@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-/* * {
+* {
     margin: auto;
     padding: auto;
     box-sizing: border-box;
-} */
+}
 
 .nav {
     display: flex;
@@ -50,7 +50,7 @@ section h4{
 
 footer {
     background: #000;
-    height: 60vh;
+    height: 100vh;
 }
 
 .titre-footer {
@@ -64,8 +64,9 @@ footer {
 }
 
 .infos {
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .info-office,
@@ -78,6 +79,8 @@ footer {
     border: none;
     border-radius: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titre-info {
@@ -137,18 +140,22 @@ footer {
     align-items: center;
     
 }
-/* .infos-2{
+.infos-2{
     display: flex;
-} */
+}
+
+.info-3{
+    display: flex;
+}
 
 
 @media only screen and (max-width: 600px){
-    /* main{
+     main{
         display: block;
         
-    }  */
+    }  
 
-    /* .img-men{
+     .img-men{
         width: 433px;
         display: flex;
     }
@@ -161,17 +168,20 @@ footer {
 
     section p{
         font-size: 14px;
-    } */
+    }
 
-    /* .infos{
+    .infos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: column;
     }
     .info{
         justify-content: center;
         text-align: center;
-    } */
+    } 
 
-    /* .bar-2 {
+    .bar-2 {
         margin: auto;
     }
 
@@ -180,6 +190,10 @@ footer {
     }
 
     footer{
-        height: 100vh;
-    } */
+        height: 130vh;
+    } 
+
+    .info-3{
+        flex-direction: column;
+    }
 }
